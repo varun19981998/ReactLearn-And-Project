@@ -15,6 +15,8 @@ function App() {
       let newFoodItem = event.target.value;
       event.target.value = "";
       let newItems = [...foodItems, newFoodItem];
+      // ... spread operator value added to array
+
       setFoodItems(newItems);
     }
   };
